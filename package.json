@@ -1,6 +1,6 @@
 {
   "name": "add-params-url",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,6 @@
   "pre-commit": [
     "register"
   ],
-  "dependencies": {
-    "pre-commit": "^1.2.2"
-  },
   "author": "",
   "license": "ISC",
   "peerDependencies": {
@@ -23,6 +20,7 @@
     "webpack": "^5.52.1"
   },
   "devDependencies": {
+    "pre-commit": "^1.2.2",
     "webpack-cli": "^4.8.0"
   }
 }
