@@ -5,7 +5,7 @@ class Rt {
     this.self = _this
   }
   addParams(parmas) {
-    this.self.$router.push({
+    this.self.$router.replace({
       query: merge(this.self.$route.query, parmas)
     });
   }
