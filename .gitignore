@@ -1,0 +1,18 @@
+# Build and Release Folders
+
+# Other files and folders
+
+
+# Executables
+
+node_modules
+dist
+package-lock.json
+yarn.lock
+yalc.lock
+yarn*
+.DS_Store
+lib/*
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
